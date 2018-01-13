@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<openerp>
+    <data noupdate="1">
+
+      <record id="mx_customer_general_public" model="res.partner">
+        <field name="vat">MXXAXX010101000</field>
+        <field name="name">PUBLICO GENERAL</field>
+      </record>
+      
+    </data>
+</openerp>
