@@ -4,12 +4,12 @@
 
 {
     'name': 'Add customer PUBLICO GENERAL',
-    'version': '9.0.1.0.0',
+    'version': '9.0.1.0.1',
     'category': 'Sales',
     'author': 'Humanytek',
     'website': "http://www.humanytek.com",
     'license': 'AGPL-3',
-    'depends': ['sale', ],
+    'depends': ['sale', 'l10n_mx_sat_models_datas'],
     'data': [
         'data/res_partner.xml',
     ],
