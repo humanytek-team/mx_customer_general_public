@@ -5,6 +5,10 @@
       <record id="mx_customer_general_public" model="res.partner">
         <field name="vat">MXXAXX010101000</field>
         <field name="name">PUBLICO GENERAL</field>
+        <field name="phone">N/A</field>
+        <field name="email">N/A</field>
+        <field name="zip_sat_id" ref="l10n_mx_sat_models_datas.zip_sat_code_39985" />
+        <field name="customer" eval="True"/>
       </record>
       
     </data>
